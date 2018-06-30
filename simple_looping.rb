@@ -7,8 +7,8 @@ def loop_iterator(number_of_times)
     puts "Welcome to Flatiron School's Web Development Course!"
     if counter == number_of_times
       break 
-  end
-end 
+      end
+    end 
 end 
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
@@ -22,7 +22,7 @@ end
 def times_iterator(number_of_times)
   number_of_times.times do
     puts "Welcome to Flatiron School's Web Development Course!"
-  end
+    end
 end
 
 def while_iterator(number_of_times)
